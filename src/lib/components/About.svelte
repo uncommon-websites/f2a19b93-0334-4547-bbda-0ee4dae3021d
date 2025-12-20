@@ -6,11 +6,11 @@
   <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 items-center">
     <!-- Left: Image -->
     <div class="lg:col-span-5">
-      <div class="relative w-full aspect-[3/4] bg-gray-100 rounded-2xl overflow-hidden border border-gray-200">
+      <div class="relative w-full aspect-[3/4] bg-gray-100 rounded-2xl overflow-hidden border border-gray-200 group cursor-pointer">
         <img 
           src={founderImage} 
           alt="Maximilian Zielinski, Founder & CEO" 
-          class="w-full h-full object-cover object-center"
+          class="w-full h-full object-cover object-center grayscale group-hover:grayscale-0 transition-all duration-500"
         />
       </div>
     </div>
@@ -18,23 +18,23 @@
     <!-- Right: Content -->
     <div class="lg:col-span-7">
       <div class="max-w-2xl">
-        <p class="text-sm font-medium text-gray-400 mb-4">Founder & CEO</p>
+        <p class="text-sm font-medium text-gray-500 mb-4">Founder & CEO</p>
         
-        <h2 class="text-[clamp(2.5rem,5vw,4.5rem)] leading-[0.95] tracking-tight font-medium mb-8 text-white">
+        <h2 class="text-[clamp(2.5rem,5vw,4.5rem)] leading-[0.95] tracking-tight font-medium mb-8 text-black">
           Maximilian Zielinski
         </h2>
         
         <div class="space-y-6">
-          <p class="text-xl md:text-2xl leading-relaxed text-white font-normal">
+          <p class="text-xl md:text-2xl leading-relaxed text-black font-normal">
             "I've had the privilege of working alongside some of the world's top enterprising investors. Now, my mission is to bridge the world of high finance with the ambitions of small and medium businesses."
           </p>
           
-          <p class="text-base md:text-lg leading-relaxed text-gray-400">
+          <p class="text-base md:text-lg leading-relaxed text-gray-600">
             "I want to take what I've learned and make those strategies accessible, helping businesses unlock their potential and drive unprecedented growth."
           </p>
           
-          <div class="pt-6 border-t border-gray-800">
-            <p class="text-sm text-gray-400 leading-relaxed">
+          <div class="pt-6 border-t border-gray-200">
+            <p class="text-sm text-gray-600 leading-relaxed">
               Maximilian spent a decade in private equity and family offices serving ultra-wealthy clients. He witnessed how elite financial strategies remained inaccessible to small businesses despite their potential, driving his mission to bridge this gap and level the playing field for SME owners seeking growth capital and strategic exits.
             </p>
           </div>

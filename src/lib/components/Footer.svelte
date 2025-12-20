@@ -1,4 +1,4 @@
-<footer class="bg-[#110F28] text-white pt-20 pb-12 px-6" id="contact">
+<footer class="bg-black text-white pt-20 pb-12 px-6" id="contact">
   <div class="max-w-[1400px] mx-auto">
     
     <!-- Top Section -->
@@ -26,7 +26,7 @@
 
     <!-- CTA Button -->
     <div class="mb-32">
-        <button class="bg-white text-[#110F28] text-sm font-medium px-24 py-4 rounded-full hover:bg-opacity-90 transition-opacity w-full md:w-auto">
+        <button class="bg-white text-black text-sm font-medium px-24 py-4 rounded-full hover:bg-opacity-90 transition-opacity w-full md:w-auto">
             Get in Touch
         </button>
     </div>

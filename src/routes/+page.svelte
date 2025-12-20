@@ -20,7 +20,7 @@
   <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
-<main class="bg-black min-h-screen font-sans text-white selection:bg-white selection:text-black">
+<main class="bg-white min-h-screen font-sans text-black selection:bg-black selection:text-white">
   <Header />
   <Hero />
   <About />

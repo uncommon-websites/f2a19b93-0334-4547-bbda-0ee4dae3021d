@@ -3,17 +3,17 @@
 @theme {
   --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   
-  --color-openstakes-dark: #0A0D12;
-  --color-openstakes-primary: #110F28;
-  --color-openstakes-accent: #6C6C89;
-  --color-bg-light: #F7F7F8;
+  --color-openstakes-dark: #000000;
+  --color-openstakes-primary: #000000;
+  --color-openstakes-accent: #333333;
+  --color-bg-light: #FFFFFF;
 }
 
 @layer base {
   body {
     font-family: var(--font-sans);
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #FFFFFF;
+    color: #000000;
     -webkit-font-smoothing: antialiased;
   }
 }
