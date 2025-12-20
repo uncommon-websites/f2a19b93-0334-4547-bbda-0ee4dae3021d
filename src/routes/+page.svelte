@@ -10,7 +10,16 @@
   import Footer from "$lib/components/Footer.svelte";
 </script>
 
-<main class="bg-[#F7F7F8] min-h-screen font-sans text-[#110F28] selection:bg-[#635bff] selection:text-white">
+<svelte:head>
+  <title>Openstakes - Bridging Institutional Finance with SME Ambitions</title>
+  <meta name="description" content="Openstakes democratizes elite financial strategies for small and medium businesses through strategic capital partnerships and hands-on advisory. Based in Brisbane & Gold Coast, Queensland." />
+  <meta property="og:title" content="Openstakes - Bridging Institutional Finance with SME Ambitions" />
+  <meta property="og:description" content="Strategic capital partnerships and corporate advisory for Australian SME businesses seeking growth capital and strategic exits." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+</svelte:head>
+
+<main class="bg-[#F7F7F8] min-h-screen font-sans text-[#110F28] selection:bg-primary-600 selection:text-white">
   <Header />
   <Hero />
   <WhyAttend />

@@ -2,16 +2,16 @@
   import { Plus } from 'lucide-svelte';
 
   const faqs = [
-    "Can I add training after I complete my registration?",
-    "How do group passes work?",
-    "Do you have a justification letter to help persuade my organization to sponsor my attendance?",
-    "Can I request an accessibility accommodation to attend the event?",
-    "Is there a minimum age requirement to attend?",
-    "How can I book a room at one of the Sessions hotels?",
-    "Can I transfer my ticket to someone else?",
-    "Can I modify or cancel my registration?",
-    "Can I modify or cancel my training pass?",
-    "I have additional questions that weren't covered here. Who can I contact?"
+    "What types of businesses does Openstakes invest in?",
+    "How does the Growth Partnership model work?",
+    "What is the difference between Growth Partnership and Legacy Buyout?",
+    "Will my company's culture and team be preserved?",
+    "What is the typical investment timeline?",
+    "How involved will Openstakes be in day-to-day operations?",
+    "What industries do you focus on?",
+    "How do I know if my business is ready for a partnership?",
+    "What is the 'no-arseholes policy'?",
+    "How can I get in touch to discuss a potential partnership?"
   ];
 </script>
 
