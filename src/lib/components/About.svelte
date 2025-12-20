@@ -18,23 +18,23 @@
     <!-- Right: Content -->
     <div class="lg:col-span-7">
       <div class="max-w-2xl">
-        <p class="text-sm font-medium text-gray-600 mb-4">Founder & CEO</p>
+        <p class="text-sm font-medium text-gray-400 mb-4">Founder & CEO</p>
         
-        <h2 class="text-[clamp(2.5rem,5vw,4.5rem)] leading-[0.95] tracking-tight font-medium mb-8 text-[#110F28]">
+        <h2 class="text-[clamp(2.5rem,5vw,4.5rem)] leading-[0.95] tracking-tight font-medium mb-8 text-white">
           Maximilian Zielinski
         </h2>
         
         <div class="space-y-6">
-          <p class="text-xl md:text-2xl leading-relaxed text-[#110F28] font-normal">
+          <p class="text-xl md:text-2xl leading-relaxed text-white font-normal">
             "I've had the privilege of working alongside some of the world's top enterprising investors. Now, my mission is to bridge the world of high finance with the ambitions of small and medium businesses."
           </p>
           
-          <p class="text-base md:text-lg leading-relaxed text-gray-600">
+          <p class="text-base md:text-lg leading-relaxed text-gray-400">
             "I want to take what I've learned and make those strategies accessible, helping businesses unlock their potential and drive unprecedented growth."
           </p>
           
-          <div class="pt-6 border-t border-gray-200">
-            <p class="text-sm text-gray-600 leading-relaxed">
+          <div class="pt-6 border-t border-gray-800">
+            <p class="text-sm text-gray-400 leading-relaxed">
               Maximilian spent a decade in private equity and family offices serving ultra-wealthy clients. He witnessed how elite financial strategies remained inaccessible to small businesses despite their potential, driving his mission to bridge this gap and level the playing field for SME owners seeking growth capital and strategic exits.
             </p>
           </div>

@@ -2,8 +2,8 @@
   // Value proposition component
 </script>
 
-<section class="py-20 px-6 max-w-[1400px] mx-auto border-t border-gray-200" id="services">
-  <h2 class="text-[clamp(2.5rem,5vw,4rem)] leading-none font-medium mb-16 text-[#110F28]">Our approach</h2>
+<section class="py-20 px-6 max-w-[1400px] mx-auto border-t border-gray-800" id="services">
+  <h2 class="text-[clamp(2.5rem,5vw,4rem)] leading-none font-medium mb-16 text-white">Our approach</h2>
 
   <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
     <!-- Left Content -->

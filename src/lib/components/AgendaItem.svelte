@@ -13,37 +13,37 @@
   export let tags: string[] = [];
 </script>
 
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 py-12 border-t border-gray-200">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 py-12 border-t border-gray-800">
   <!-- Right Content -->
   <div class="lg:col-span-12">
     <div class="flex gap-2 mb-8">
       {#each tags as tag}
-        <span class="inline-flex items-center gap-1.5 px-2 py-1 rounded bg-gray-100 text-[10px] font-medium text-gray-600 uppercase tracking-wide">
-          <span class="w-2 h-2 rounded-sm bg-[#635bff]"></span>
+        <span class="inline-flex items-center gap-1.5 px-2 py-1 rounded bg-gray-800 text-[10px] font-medium text-gray-300 uppercase tracking-wide">
+          <span class="w-2 h-2 rounded-sm bg-white"></span>
           {tag}
         </span>
       {/each}
     </div>
 
-    <h3 class="text-3xl font-medium text-[#110F28] mb-8">{date}</h3>
+    <h3 class="text-3xl font-medium text-white mb-8">{date}</h3>
 
     <div class="space-y-0">
       {#each items as item}
-        <div class="grid grid-cols-1 md:grid-cols-12 py-6 border-t border-gray-100">
+        <div class="grid grid-cols-1 md:grid-cols-12 py-6 border-t border-gray-800">
           <div class="md:col-span-3">
-            <p class="text-sm text-gray-400 font-medium">{item.time}</p>
+            <p class="text-sm text-gray-500 font-medium">{item.time}</p>
           </div>
           <div class="md:col-span-9">
              {#if Array.isArray(item.content)}
                 <ul class="space-y-1">
                     {#each item.content as line}
-                        <li class="text-sm text-[#110F28]">{line}</li>
+                        <li class="text-sm text-white">{line}</li>
                     {/each}
                 </ul>
              {:else}
-                <p class="text-sm text-[#110F28] mb-1">{item.title}</p>
+                <p class="text-sm text-white mb-1">{item.title}</p>
                 {#if item.subtitle}
-                    <p class="text-sm text-[#110F28]">{item.subtitle}</p>
+                    <p class="text-sm text-white">{item.subtitle}</p>
                 {/if}
              {/if}
           </div>
