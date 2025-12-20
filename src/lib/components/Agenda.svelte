@@ -33,7 +33,20 @@
 </script>
 
 <section class="px-6 max-w-[1400px] mx-auto" id="portfolio">
-  <AgendaItem {...portfolio} />
-  <AgendaItem {...transactions} />
-  <AgendaItem {...exits} />
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 pt-12">
+    <!-- Sticky Left Header -->
+    <div class="lg:col-span-5 lg:sticky lg:top-24 lg:self-start">
+      <h2 class="text-[clamp(2.5rem,5vw,4rem)] leading-none font-medium mb-8 text-[#110F28]">Portfolio &<br>track record</h2>
+      <button class="bg-[#110F28] text-white text-xs font-medium px-6 py-3 rounded-full hover:bg-opacity-90 transition-opacity">
+        Partner With Us
+      </button>
+    </div>
+
+    <!-- Right Content Area -->
+    <div class="lg:col-span-7">
+      <AgendaItem {...portfolio} />
+      <AgendaItem {...transactions} />
+      <AgendaItem {...exits} />
+    </div>
+  </div>
 </section>

@@ -14,16 +14,8 @@
 </script>
 
 <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 py-12 border-t border-gray-200">
-  <!-- Left Header -->
-  <div class="lg:col-span-5">
-    <h2 class="text-[clamp(2.5rem,5vw,4rem)] leading-none font-medium mb-8 text-[#110F28]">Portfolio &<br>track record</h2>
-    <button class="bg-[#110F28] text-white text-xs font-medium px-6 py-3 rounded-full hover:bg-opacity-90 transition-opacity">
-      Partner With Us
-    </button>
-  </div>
-
   <!-- Right Content -->
-  <div class="lg:col-span-7">
+  <div class="lg:col-span-12">
     <div class="flex gap-2 mb-8">
       {#each tags as tag}
         <span class="inline-flex items-center gap-1.5 px-2 py-1 rounded bg-gray-100 text-[10px] font-medium text-gray-600 uppercase tracking-wide">
