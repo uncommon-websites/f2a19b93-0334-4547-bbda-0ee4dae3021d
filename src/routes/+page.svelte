@@ -1,6 +1,7 @@
 <script lang="ts">
   import Header from "$lib/components/Header.svelte";
   import Hero from "$lib/components/Hero.svelte";
+  import Expertise from "$lib/components/Expertise.svelte";
   import About from "$lib/components/About.svelte";
   import WhyAttend from "$lib/components/WhyAttend.svelte";
   import Passes from "$lib/components/Passes.svelte";
@@ -23,6 +24,7 @@
 <main class="bg-white min-h-screen font-sans text-black selection:bg-black selection:text-white">
   <Header />
   <Hero />
+  <Expertise />
   <About />
   <WhyAttend />
   <Passes />
