@@ -7,56 +7,39 @@
 
   <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
     <!-- Left Content -->
-    <div class="lg:col-span-5 flex flex-col gap-16">
+    <div class="lg:col-span-5 flex flex-col gap-12">
       
-      <!-- Item 1 -->
+      <!-- Main Statement -->
       <div>
-        <h3 class="text-xl font-medium mb-3 text-black">Institutional strategies for SME businesses</h3>
-        <p class="text-sm leading-relaxed text-gray-600">
-          We bridge the world of high finance with the ambitions of small and medium businesses. Our team brings decades of experience from multi-family offices, private equity, and M&A to democratize elite financial strategies that have traditionally been inaccessible to SMEs.
+        <p class="text-base leading-relaxed text-black">
+          In poker, the player with the largest bankroll has an unfair advantage. The same is true in business. We're changing that.
         </p>
-      </div>
-
-      <!-- Item 2 -->
-      <div>
-        <h3 class="text-xl font-medium mb-3 text-black">Two distinct divisions serving your needs</h3>
-        <p class="text-sm leading-relaxed text-gray-600 mb-4">
-          Openstakes operates as both a holding company and corporate advisory firm, providing comprehensive solutions for business leaders at every stage of their journey.
-        </p>
-      </div>
-
-      <!-- Item 3 -->
-      <div>
-        <h3 class="text-xl font-medium mb-3 text-black">Our core values</h3>
-        <ul class="list-disc pl-5 text-sm leading-relaxed text-gray-600 space-y-1 mb-4">
-          <li>Integrity: Highest ethical standards, fostering trust and transparency</li>
-          <li>Partnership: Viewing investments as true partnerships</li>
-          <li>Long-term vision: Sustainable growth and enduring value</li>
-          <li>Operational excellence: Hands-on approach driving meaningful improvements</li>
-          <li>Respect for legacy: Honoring founders' legacies and preserving unique cultures</li>
-          <li>Community commitment: Ensuring minimal disruption during transitions</li>
-        </ul>
-      </div>
-
-      <!-- Advisory Box -->
-      <div class="bg-gray-100 p-4 rounded-lg flex items-center justify-between group cursor-pointer hover:bg-gray-200 transition-colors">
-        <div>
-          <p class="text-xs font-medium text-black">Backed by an esteemed</p>
-          <p class="text-xs font-medium text-black">advisory council from UBS,</p>
-          <p class="text-xs font-medium text-black">Deutsche Bank, Citi & Blackstone</p>
-        </div>
-        <div class="w-6 h-6 rounded-full bg-gray-300 flex items-center justify-center">
-            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-600"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
-        </div>
       </div>
 
       <hr class="border-gray-200" />
 
-      <!-- Item 4 -->
+      <!-- What We Do -->
       <div>
-        <h3 class="text-xl font-medium mb-3 text-black">Track record of success</h3>
+        <h3 class="text-xl font-medium mb-3 text-black">We're operators, not just investors</h3>
         <p class="text-sm leading-relaxed text-gray-600">
-          From facilitating $400M+ development projects to successfully growing and exiting portfolio companies, we combine strategic capital with operational expertise. Our portfolio includes thriving businesses in construction, media, and design, demonstrating our commitment to long-term value creation.
+          A decade in private equity and multi-family offices taught us that elite financial strategies shouldn't be reserved for the ultra-wealthy. We bring institutional-grade advisory and strategic capital to SME businesses—combining hands-on operational expertise with the kind of financial firepower typically seen only at the top end of town.
+        </p>
+      </div>
+
+      <!-- Track Record -->
+      <div>
+        <h3 class="text-xl font-medium mb-3 text-black">$400M+ in transactions</h3>
+        <p class="text-sm leading-relaxed text-gray-600">
+          From facilitating major development projects to growing and exiting portfolio companies across construction, media, and design, we've proven that long-term partnerships and operational excellence create enduring value. Our advisory council—featuring current and former executives from UBS, Deutsche Bank, Citi, and Blackstone—ensures we stay at the forefront of financial strategy.
+        </p>
+      </div>
+
+      <hr class="border-gray-200" />
+
+      <!-- Two Divisions -->
+      <div>
+        <p class="text-sm leading-relaxed text-gray-600">
+          We operate as both a holding company and corporate advisory firm. Whether you're seeking growth capital, planning an exit, or need strategic CFO guidance, we provide the expertise and capital to get you there—without the corporate nonsense.
         </p>
       </div>
 
