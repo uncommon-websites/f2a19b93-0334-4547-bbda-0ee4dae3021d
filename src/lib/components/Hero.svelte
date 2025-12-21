@@ -24,17 +24,11 @@
       <!-- Subtle overlay -->
       <div class="absolute inset-0 bg-black/5"></div>
       
-      <!-- Play button -->
+      <!-- Watch Video button with dark overlay -->
       <div class="absolute inset-0 flex items-center justify-center">
-        <div class="w-20 h-20 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center transition-all group-hover:scale-110 group-hover:bg-white border border-gray-200">
-          <Play class="w-8 h-8 text-black ml-1" />
-        </div>
-      </div>
-      
-      <!-- Watch Video text -->
-      <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
-        <div class="text-center mt-32">
-          <p class="text-sm font-medium text-gray-700 opacity-0 group-hover:opacity-100 transition-opacity">Watch Video</p>
+        <div class="flex items-center gap-3 px-8 py-4 bg-black/60 backdrop-blur-sm rounded-lg transition-all group-hover:bg-black/70">
+          <Play class="w-6 h-6 text-white fill-white" />
+          <span class="text-white text-lg font-medium">Watch Video</span>
         </div>
       </div>
     </div>
