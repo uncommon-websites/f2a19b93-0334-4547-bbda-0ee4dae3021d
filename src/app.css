@@ -3,17 +3,27 @@
 @theme {
   --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   
-  --color-openstakes-dark: #000000;
-  --color-openstakes-primary: #000000;
-  --color-openstakes-accent: #333333;
-  --color-bg-light: #FFFFFF;
+  /* Modern Color Palette */
+  --color-openstakes-dark: #0A0F1C;
+  --color-openstakes-primary: #1E293B;
+  --color-openstakes-accent: #0EA5E9;
+  --color-openstakes-accent-dark: #0284C7;
+  --color-openstakes-secondary: #8B5CF6;
+  --color-bg-light: #F8FAFC;
+  --color-bg-white: #FFFFFF;
+  
+  /* Gradient Colors */
+  --gradient-primary-start: #0EA5E9;
+  --gradient-primary-end: #8B5CF6;
+  --gradient-subtle-start: #F0F9FF;
+  --gradient-subtle-end: #F5F3FF;
 }
 
 @layer base {
   body {
     font-family: var(--font-sans);
-    background-color: #FFFFFF;
-    color: #000000;
+    background: linear-gradient(to bottom, #F8FAFC 0%, #FFFFFF 100%);
+    color: #1E293B;
     -webkit-font-smoothing: antialiased;
   }
 }

@@ -1,5 +1,5 @@
-<section class="py-20 px-6 max-w-[1400px] mx-auto border-t border-gray-200">
-  <h2 class="text-[clamp(2.5rem,5vw,4rem)] leading-none font-medium mb-16 text-black">Investment models</h2>
+<section class="py-20 px-6 max-w-[1400px] mx-auto border-t border-sky-100">
+  <h2 class="text-[clamp(2.5rem,5vw,4rem)] leading-none font-medium mb-16 bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent">Investment models</h2>
 
   <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
     <!-- Cards -->
@@ -51,10 +51,10 @@
 
     <!-- Included List -->
     <div class="lg:col-span-4 pl-0 lg:pl-12 pt-4">
-      <h3 class="text-sm font-medium text-black mb-6">What we bring</h3>
+      <h3 class="text-sm font-medium text-slate-800 mb-6">What we bring</h3>
       <ul class="space-y-4">
         {#each ['Strategic capital', 'Operational expertise', 'Elite advisory network', 'M&A experience', 'Long-term commitment', 'Culture preservation', 'Growth acceleration'] as item}
-          <li class="text-sm text-gray-600 flex items-center gap-3">
+          <li class="text-sm text-slate-600 flex items-center gap-3">
              {item}
           </li>
         {/each}

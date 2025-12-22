@@ -22,11 +22,11 @@
     </div>
 
     <div class="lg:col-span-8">
-      <div class="border-t border-gray-200">
+      <div class="border-t border-sky-200">
         {#each faqs as question}
-          <div class="py-5 border-b border-gray-200 flex justify-between items-center cursor-pointer group hover:bg-gray-50 transition-colors px-2 -mx-2 rounded-sm">
-            <h3 class="text-sm font-medium text-black pr-8">{question}</h3>
-            <div class="text-gray-600 group-hover:text-black transition-colors">
+          <div class="py-5 border-b border-sky-100 flex justify-between items-center cursor-pointer group hover:bg-sky-50 transition-colors px-2 -mx-2 rounded-sm">
+            <h3 class="text-sm font-medium text-slate-800 pr-8">{question}</h3>
+            <div class="text-sky-600 group-hover:text-sky-700 transition-colors">
               <Plus size={16} />
             </div>
           </div>
