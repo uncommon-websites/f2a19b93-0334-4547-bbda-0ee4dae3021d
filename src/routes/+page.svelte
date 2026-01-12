@@ -4,11 +4,6 @@
   import Expertise from "$lib/components/Expertise.svelte";
   import About from "$lib/components/About.svelte";
   import WhyAttend from "$lib/components/WhyAttend.svelte";
-  import Passes from "$lib/components/Passes.svelte";
-  import Speakers from "$lib/components/Speakers.svelte";
-  import Agenda from "$lib/components/Agenda.svelte";
-  import Sponsors from "$lib/components/Sponsors.svelte";
-  import FAQ from "$lib/components/FAQ.svelte";
   import Footer from "$lib/components/Footer.svelte";
 </script>
 
@@ -21,17 +16,12 @@
   <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
-<main class="bg-[#0F1419] min-h-screen font-sans text-[#F5F1E8] selection:bg-[#1A5C47] selection:text-[#F5F1E8]">
+<main class="bg-[#0A0A0A] min-h-screen font-sans text-[#FAFAF8] selection:bg-[#004225] selection:text-[#FAFAF8]">
   <Header />
   <Hero />
   <Expertise />
   <About />
   <WhyAttend />
-  <Passes />
-  <Speakers />
-  <Agenda />
-  <Sponsors />
-  <FAQ />
   <Footer />
 </main>
 

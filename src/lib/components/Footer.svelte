@@ -1,47 +1,27 @@
-<footer class="bg-gradient-to-br from-[#0F1419] to-[#1A1F26] text-[#F5F1E8] pt-20 pb-12 px-6 border-t border-[#1A5C47]/20" id="contact">
-  <div class="max-w-[1400px] mx-auto">
+<footer class="bg-[#0A0A0A] text-[#FAFAF8] pt-40 pb-16 px-12 border-t border-[#FAFAF8]/5" id="contact">
+  <div class="max-w-[1600px] mx-auto">
     
-    <!-- Top Section -->
-    <div class="flex flex-col md:flex-row justify-between items-start mb-24">
-      <div class="flex items-center gap-3 mb-8 md:mb-0">
-        <span class="font-serif font-semibold text-lg tracking-tight text-[#F5F1E8]">Openstakes</span>
-      </div>
-
-      <div class="flex flex-col md:flex-row gap-8 md:gap-32 text-sm font-medium text-[#C5C1B8] uppercase tracking-wider">
-        <div>
-          <p>OS Holdings</p>
-          <p>Corporate Advisory</p>
-        </div>
-        <div>
-          <p>Brisbane & Gold Coast,</p>
-          <p>Queensland, Australia</p>
-        </div>
-      </div>
-    </div>
-
     <!-- Big Title -->
-    <h2 class="font-serif text-[clamp(2.5rem,6vw,5rem)] leading-[0.92] tracking-tight font-semibold max-w-5xl mb-16 text-[#F5F1E8]">
+    <h2 class="font-serif text-[clamp(3rem,7vw,6rem)] leading-[0.9] tracking-tight font-semibold max-w-5xl mb-24 text-[#FAFAF8]">
       Bridging institutional finance with SME ambitions
     </h2>
 
     <!-- CTA Button -->
-    <div class="mb-32">
-        <button class="bg-[#1A5C47] text-[#F5F1E8] text-sm font-medium px-24 py-4 border border-[#1A5C47] hover:bg-[#0B3B2D] hover:border-[#B8956A] transition-all w-full md:w-auto">
-            Get in Touch
-        </button>
+    <div class="mb-40">
+      <button class="text-[#FAFAF8] text-[15px] font-normal px-12 py-4 border border-[#004225] hover:bg-[#004225] transition-all duration-300">
+        Get in touch
+      </button>
     </div>
 
-    <!-- Bottom Links -->
-    <div class="flex flex-col md:flex-row justify-between items-end border-t border-[#1A5C47]/20 pt-8 text-[11px] text-[#C5C1B8] font-medium">
-      <div class="flex flex-col gap-1 mb-4 md:mb-0">
-        <p>For inquiries, email:</p>
-        <a href="mailto:contact@openstakes.com" class="text-[#B8956A] hover:text-[#F5F1E8] transition-colors">contact@openstakes.com</a>
+    <!-- Bottom Links - Restrained -->
+    <div class="flex flex-col md:flex-row justify-between items-start border-t border-[#FAFAF8]/5 pt-12 text-[13px] text-[#C5C1B8]">
+      <div class="mb-8 md:mb-0">
+        <span class="font-serif font-semibold text-base tracking-tight text-[#FAFAF8]">Openstakes</span>
       </div>
 
-      <div class="flex flex-wrap gap-6">
-        <a href="https://openstakes.com" class="hover:text-[#B8956A] transition-colors">Visit openstakes.com</a>
-        <a href="/" class="hover:text-[#B8956A] transition-colors">Privacy Policy</a>
-        <a href="/" class="hover:text-[#B8956A] transition-colors">Terms & Conditions</a>
+      <div class="flex flex-col md:flex-row gap-8 md:gap-12">
+        <a href="mailto:contact@openstakes.com" class="hover:text-[#004225] transition-colors duration-300">contact@openstakes.com</a>
+        <a href="https://openstakes.com" class="hover:text-[#004225] transition-colors duration-300">openstakes.com</a>
       </div>
     </div>
 
