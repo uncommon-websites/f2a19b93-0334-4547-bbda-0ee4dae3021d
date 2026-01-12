@@ -15,18 +15,18 @@
   ];
 </script>
 
-<section class="py-20 px-6 max-w-[1400px] mx-auto border-t border-gray-200" id="faq">
+<section class="py-24 px-6 max-w-[1400px] mx-auto border-t border-[#1A5C47]/20" id="faq">
   <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
     <div class="lg:col-span-4">
-      <h2 class="text-[clamp(2.5rem,5vw,4rem)] leading-none font-medium text-black">FAQs</h2>
+      <h2 class="font-serif text-[clamp(2.5rem,5vw,4rem)] leading-[0.92] font-semibold text-[#F5F1E8]">FAQs</h2>
     </div>
 
     <div class="lg:col-span-8">
-      <div class="border-t border-sky-200">
+      <div class="border-t border-[#1A5C47]/30">
         {#each faqs as question}
-          <div class="py-5 border-b border-sky-100 flex justify-between items-center cursor-pointer group hover:bg-sky-50 transition-colors px-2 -mx-2 rounded-sm">
-            <h3 class="text-sm font-medium text-slate-800 pr-8">{question}</h3>
-            <div class="text-sky-600 group-hover:text-sky-700 transition-colors">
+          <div class="py-5 border-b border-[#1A5C47]/20 flex justify-between items-center cursor-pointer group hover:bg-[#1A1F26] transition-colors px-2 -mx-2">
+            <h3 class="text-sm font-medium text-[#F5F1E8] pr-8 font-light">{question}</h3>
+            <div class="text-[#B8956A] group-hover:text-[#F5F1E8] transition-colors">
               <Plus size={16} />
             </div>
           </div>

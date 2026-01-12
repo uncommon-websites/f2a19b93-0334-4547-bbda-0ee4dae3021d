@@ -2,10 +2,10 @@
   // Partners & Portfolio Companies component
 </script>
 
-<section class="py-20 px-6 max-w-[1400px] mx-auto border-t border-sky-100">
+<section class="py-24 px-6 max-w-[1400px] mx-auto border-t border-[#1A5C47]/20">
   <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-6">
-    <h2 class="text-[clamp(2.5rem,5vw,4rem)] leading-none font-medium bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent">Partners</h2>
-    <button class="bg-gradient-to-r from-sky-500 to-sky-600 text-white text-xs font-medium px-6 py-3 rounded-full hover:from-sky-600 hover:to-purple-600 transition-all">
+    <h2 class="font-serif text-[clamp(2.5rem,5vw,4rem)] leading-[0.92] font-semibold text-[#F5F1E8]">Partners</h2>
+    <button class="bg-[#1A5C47] text-[#F5F1E8] text-xs font-medium px-6 py-3 border border-[#1A5C47] hover:bg-[#0B3B2D] hover:border-[#B8956A] transition-all">
       Explore Partnerships
     </button>
   </div>
@@ -25,42 +25,42 @@
     </div>
 
     <!-- Portfolio Companies -->
-    <div class="bg-white border-2 border-sky-200 flex items-center justify-center h-[160px] rounded-2xl group hover:bg-sky-50 hover:border-sky-400 transition-all">
-      <span class="text-slate-800 font-bold text-xl">Factor Constructions</span>
+    <div class="bg-[#1A1F26] border border-[#1A5C47]/30 flex items-center justify-center h-[160px] group hover:bg-[#0B3B2D] hover:border-[#B8956A]/50 transition-all">
+      <span class="font-serif text-[#F5F1E8] font-semibold text-xl">Factor Constructions</span>
     </div>
-    <div class="bg-white border-2 border-sky-200 flex items-center justify-center h-[160px] rounded-2xl group hover:bg-sky-50 hover:border-sky-400 transition-all">
-       <span class="text-slate-800 font-bold text-xl">Focl Media</span>
+    <div class="bg-[#1A1F26] border border-[#1A5C47]/30 flex items-center justify-center h-[160px] group hover:bg-[#0B3B2D] hover:border-[#B8956A]/50 transition-all">
+       <span class="font-serif text-[#F5F1E8] font-semibold text-xl">Focl Media</span>
     </div>
-    <div class="bg-white border-2 border-sky-200 flex items-center justify-center h-[160px] rounded-2xl group hover:bg-sky-50 hover:border-sky-400 transition-all">
-       <span class="text-slate-800 font-bold text-xl">Focl Design</span>
+    <div class="bg-[#1A1F26] border border-[#1A5C47]/30 flex items-center justify-center h-[160px] group hover:bg-[#0B3B2D] hover:border-[#B8956A]/50 transition-all">
+       <span class="font-serif text-[#F5F1E8] font-semibold text-xl">Focl Design</span>
     </div>
 
     <!-- Partners Row -->
-    <div class="bg-white border-2 border-purple-200 flex items-center justify-center h-[160px] rounded-2xl hover:bg-purple-50 hover:border-purple-400 transition-all">
-       <span class="text-slate-800 font-bold text-xl">Maecenas</span>
+    <div class="bg-[#1A1F26] border border-[#1A5C47]/30 flex items-center justify-center h-[160px] hover:bg-[#0B3B2D] hover:border-[#B8956A]/50 transition-all">
+       <span class="font-serif text-[#F5F1E8] font-semibold text-xl">Maecenas</span>
     </div>
-    <div class="bg-white border-2 border-purple-200 flex items-center justify-center h-[160px] rounded-2xl hover:bg-purple-50 hover:border-purple-400 transition-all">
-       <span class="text-slate-800 font-bold text-xl">LEDA</span>
+    <div class="bg-[#1A1F26] border border-[#1A5C47]/30 flex items-center justify-center h-[160px] hover:bg-[#0B3B2D] hover:border-[#B8956A]/50 transition-all">
+       <span class="font-serif text-[#F5F1E8] font-semibold text-xl">LEDA</span>
     </div>
-    <div class="bg-white border-2 border-purple-200 flex items-center justify-center h-[160px] rounded-2xl group hover:bg-purple-50 hover:border-purple-400 transition-all">
-       <span class="text-slate-800 font-bold text-xl">MAYD Group</span>
+    <div class="bg-[#1A1F26] border border-[#1A5C47]/30 flex items-center justify-center h-[160px] group hover:bg-[#0B3B2D] hover:border-[#B8956A]/50 transition-all">
+       <span class="font-serif text-[#F5F1E8] font-semibold text-xl">MAYD Group</span>
     </div>
-    <div class="bg-white border-2 border-purple-200 flex items-center justify-center h-[160px] rounded-2xl group hover:bg-purple-50 hover:border-purple-400 transition-all">
-       <span class="text-slate-800 font-bold text-xl">Goldberg Developments</span>
+    <div class="bg-[#1A1F26] border border-[#1A5C47]/30 flex items-center justify-center h-[160px] group hover:bg-[#0B3B2D] hover:border-[#B8956A]/50 transition-all">
+       <span class="font-serif text-[#F5F1E8] font-semibold text-xl">Goldberg Developments</span>
     </div>
 
     <!-- Advisory Council Institutions -->
-    <div class="bg-gradient-to-br from-sky-50 to-white border-2 border-sky-300 flex items-center justify-center h-[160px] rounded-2xl hover:from-sky-100 hover:border-sky-400 transition-all">
-       <span class="text-slate-800 font-bold text-2xl">UBS</span>
+    <div class="bg-gradient-to-br from-[#0B3B2D] to-[#1A1F26] border border-[#1A5C47]/30 flex items-center justify-center h-[160px] hover:border-[#B8956A]/50 transition-all">
+       <span class="font-serif text-[#F5F1E8] font-semibold text-2xl">UBS</span>
     </div>
-    <div class="bg-gradient-to-br from-sky-50 to-white border-2 border-sky-300 flex items-center justify-center h-[160px] rounded-2xl hover:from-sky-100 hover:border-sky-400 transition-all">
-       <span class="text-slate-800 font-bold text-2xl">Deutsche Bank</span>
+    <div class="bg-gradient-to-br from-[#0B3B2D] to-[#1A1F26] border border-[#1A5C47]/30 flex items-center justify-center h-[160px] hover:border-[#B8956A]/50 transition-all">
+       <span class="font-serif text-[#F5F1E8] font-semibold text-2xl">Deutsche Bank</span>
     </div>
-    <div class="bg-gradient-to-br from-sky-50 to-white border-2 border-sky-300 flex items-center justify-center h-[160px] rounded-2xl hover:from-sky-100 hover:border-sky-400 transition-all">
-       <span class="text-slate-800 font-bold text-2xl">Citi</span>
+    <div class="bg-gradient-to-br from-[#0B3B2D] to-[#1A1F26] border border-[#1A5C47]/30 flex items-center justify-center h-[160px] hover:border-[#B8956A]/50 transition-all">
+       <span class="font-serif text-[#F5F1E8] font-semibold text-2xl">Citi</span>
     </div>
-    <div class="bg-gradient-to-br from-sky-50 to-white border-2 border-sky-300 flex items-center justify-center h-[160px] rounded-2xl hover:from-sky-100 hover:border-sky-400 transition-all">
-       <span class="text-slate-800 font-bold text-2xl">Blackstone</span>
+    <div class="bg-gradient-to-br from-[#0B3B2D] to-[#1A1F26] border border-[#1A5C47]/30 flex items-center justify-center h-[160px] hover:border-[#B8956A]/50 transition-all">
+       <span class="font-serif text-[#F5F1E8] font-semibold text-2xl">Blackstone</span>
     </div>
 
   </div>

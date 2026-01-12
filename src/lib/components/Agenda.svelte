@@ -32,12 +32,12 @@
   };
 </script>
 
-<section class="px-6 max-w-[1400px] mx-auto" id="portfolio">
-  <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 pt-12">
+<section class="px-6 max-w-[1400px] mx-auto border-t border-[#1A5C47]/20" id="portfolio">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 pt-24">
     <!-- Sticky Left Header -->
     <div class="lg:col-span-5 lg:sticky lg:top-24 lg:self-start">
-      <h2 class="text-[clamp(2.5rem,5vw,4rem)] leading-none font-medium mb-8 bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent">Portfolio &<br>track record</h2>
-      <button class="bg-gradient-to-r from-sky-500 to-sky-600 text-white text-xs font-medium px-6 py-3 rounded-full hover:from-sky-600 hover:to-purple-600 transition-all">
+      <h2 class="font-serif text-[clamp(2.5rem,5vw,4rem)] leading-[0.92] font-semibold mb-10 text-[#F5F1E8]">Portfolio &<br>track record</h2>
+      <button class="bg-[#1A5C47] text-[#F5F1E8] text-xs font-medium px-6 py-3 border border-[#1A5C47] hover:bg-[#0B3B2D] hover:border-[#B8956A] transition-all">
         Partner With Us
       </button>
     </div>

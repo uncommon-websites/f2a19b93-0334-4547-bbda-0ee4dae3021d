@@ -2,28 +2,44 @@
 
 @theme {
   --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Playfair Display", "Georgia", "Times New Roman", serif;
   
-  /* Modern Color Palette */
-  --color-openstakes-dark: #0A0F1C;
-  --color-openstakes-primary: #1E293B;
-  --color-openstakes-accent: #0EA5E9;
-  --color-openstakes-accent-dark: #0284C7;
-  --color-openstakes-secondary: #8B5CF6;
-  --color-bg-light: #F8FAFC;
-  --color-bg-white: #FFFFFF;
+  /* Institutional Color Palette - British Racing Green */
+  --color-racing-green: #0B3B2D;
+  --color-racing-green-light: #1A5C47;
+  --color-racing-green-dark: #062620;
   
-  /* Gradient Colors */
-  --gradient-primary-start: #0EA5E9;
-  --gradient-primary-end: #8B5CF6;
-  --gradient-subtle-start: #F0F9FF;
-  --gradient-subtle-end: #F5F3FF;
+  /* Dark Backgrounds */
+  --color-bg-primary: #0F1419;
+  --color-bg-secondary: #1A1F26;
+  --color-bg-tertiary: #242930;
+  
+  /* Cream Typography */
+  --color-text-cream: #F5F1E8;
+  --color-text-cream-dark: #E8E4D9;
+  --color-text-cream-muted: #C5C1B8;
+  
+  /* Accent Colors */
+  --color-accent-gold: #B8956A;
+  --color-accent-bronze: #9A7B5A;
+  
+  /* Subtle Gradients */
+  --gradient-racing-green: linear-gradient(135deg, #0B3B2D 0%, #1A5C47 100%);
+  --gradient-dark-subtle: linear-gradient(180deg, #0F1419 0%, #1A1F26 100%);
 }
 
 @layer base {
   body {
     font-family: var(--font-sans);
-    background: linear-gradient(to bottom, #F8FAFC 0%, #FFFFFF 100%);
-    color: #1E293B;
+    background: var(--color-bg-primary);
+    color: var(--color-text-cream);
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    letter-spacing: -0.02em;
   }
 }
