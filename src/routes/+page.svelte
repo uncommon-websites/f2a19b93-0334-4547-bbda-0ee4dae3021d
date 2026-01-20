@@ -16,7 +16,7 @@
   <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
-<main class="bg-[#0A0A0A] min-h-screen font-sans text-[#FAFAF8] selection:bg-[#004225] selection:text-[#FAFAF8]">
+<main class="bg-[#0B0E13] min-h-screen font-sans text-[#F8F9FA] selection:bg-[#C5A572] selection:text-[#0B0E13]">
   <Header />
   <Hero />
   <Expertise />

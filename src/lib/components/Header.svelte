@@ -1,19 +1,19 @@
 <script lang="ts">
-  // Minimal header - Harvey inspired
+  // Refined header - Goldman inspired
 </script>
 
-<header class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-12 py-8 transition-all duration-300 bg-[#0A0A0A]/90 backdrop-blur-sm border-b border-[#FAFAF8]/5">
+<header class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-12 py-6 transition-all duration-300 bg-[#0B0E13]/95 backdrop-blur-md border-b border-[#F8F9FA]/10">
   <div class="flex items-center">
-    <span class="font-serif font-semibold text-xl tracking-tight text-[#FAFAF8]">Openstakes</span>
+    <span class="font-semibold text-xl tracking-tight text-[#F8F9FA]">Openstakes</span>
   </div>
 
   <div class="flex items-center gap-12">
-    <nav class="hidden md:flex items-center gap-12 text-[15px] font-normal text-[#C5C1B8]">
-      <a href="#services" class="hover:text-[#004225] transition-colors duration-300">Services</a>
-      <a href="#about" class="hover:text-[#004225] transition-colors duration-300">About</a>
-      <a href="#contact" class="hover:text-[#004225] transition-colors duration-300">Contact</a>
+    <nav class="hidden md:flex items-center gap-10 text-[14px] font-medium text-[#9BA3AF]">
+      <a href="#services" class="hover:text-[#C5A572] transition-colors duration-300">Services</a>
+      <a href="#about" class="hover:text-[#C5A572] transition-colors duration-300">About</a>
+      <a href="#contact" class="hover:text-[#C5A572] transition-colors duration-300">Contact</a>
     </nav>
-    <a href="#contact" class="text-[#FAFAF8] text-[15px] font-normal px-8 py-3 border border-[#004225] hover:bg-[#004225] transition-all duration-300">
+    <a href="#contact" class="text-[#0B0E13] bg-[#C5A572] text-[14px] font-semibold px-6 py-2.5 hover:bg-[#9B8456] transition-all duration-300">
       Get in touch
     </a>
   </div>
